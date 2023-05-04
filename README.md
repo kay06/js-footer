@@ -1,13 +1,17 @@
-# ES6 Starter Project
+## Footer
 
-## Instructions after generating the project
+>This should be used in the following manner
 
-- Change into the directory and run `npm install` to install the dependencies
-- Add initial code to the src/bootstrap.js file, it will be the root file for your ES6 projects
-- Run `npm start`
-- Visit localhost:3000 in the browser and you should see the running application. If you are running console log statements they will appear in the browser's JS console.
+Install with the following commamand:
 
+```
+npm install - save js-footer
+```
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
+Add to a JavaScript Project with the following code:
 
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*"# js-footer" 
+```javascript
+import { footer } from 'js-footer';
+
+footer('Some Name');
+```
